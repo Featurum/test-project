@@ -1,0 +1,43 @@
+// Normalize
+@import 'normalize.scss';
+
+// Fonts
+@import 'fonts_roboto.scss';
+
+html,
+body {
+    width: 100%;
+    min-height: auto;
+}
+
+body {
+    overflow-y: scroll;
+    position: relative;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.dashboard {
+    min-width: 320px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.dashboard-attach {
+    padding: 20px 25px;
+}
+
+.dashboard-title {
+    margin-bottom: 20px;
+}

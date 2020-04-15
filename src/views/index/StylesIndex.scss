@@ -1,0 +1,26 @@
+.items {
+	width: 100%;
+	display: flex;
+	margin: 0 -15px;
+}
+
+.items-white,
+.items-black {
+	width: 50%;
+	padding: 0 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.items-filtered {
+	margin-bottom: 20px;
+
+	&__input {
+		width: 100%;
+		border: 1px solid #f1f1f1;
+		border-radius: 3px;
+		height: 48px;
+		padding: 0 15px;
+		font-size: 14px;
+	}
+}
